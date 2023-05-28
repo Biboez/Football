@@ -10,7 +10,6 @@ namespace Football
     {
         public Referee(string name, int age) : base(name, age)
         {
-
         }
     }
 }

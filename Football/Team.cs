@@ -11,7 +11,6 @@ namespace Football
     public class Team
     {
         public Coach Coach { get; }
-        //public List<FootballPlayer> players { get; set{} }
 
         private List<FootballPlayer> players;
 
@@ -36,7 +35,6 @@ namespace Football
             Players = players;
         }
 
-        // Method to calculate the average age of the players in the team
         public double CalculateAverageAge()
         {
             int totalAge = 0;

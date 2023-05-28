@@ -10,7 +10,6 @@ namespace Football
     {
         public Goalkeeper(string name, int number, int age, double height) : base(name, number, age, height)
         {
-
         }
     }
 }

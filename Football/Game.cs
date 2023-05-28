@@ -28,14 +28,12 @@ namespace Football
             Goals = new List<string>();
         }
 
-        // Method to add a goal to the game
         public void AddGoal(int minute, string player)
         {
             string goal = $"Minute: {minute}, Player: {player}";
             Goals.Add(goal);
         }
 
-        // Method to set the game result and winner
         public void SetResult(string result, string winner)
         {
             Result = result;

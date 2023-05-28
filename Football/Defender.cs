@@ -10,7 +10,6 @@ namespace Football
     {
         public Defender(string name, int number, int age, double height) : base(name, number, age, height)
         {
-
         }
     }
 }

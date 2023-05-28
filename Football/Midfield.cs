@@ -10,7 +10,6 @@ namespace Football
     {
         public Midfield(string name, int number, int age, double height) : base(name, number, age, height)
         {
-
         }
     }
 }
